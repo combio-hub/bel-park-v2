@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="praças_ananindeua" id="praças_ananindeua">
+	<SimpleField name="element" type="string"></SimpleField>
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="addr:suburb" type="string"></SimpleField>
+	<SimpleField name="opening_hours" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="operator:type" type="string"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="leaf_cycle" type="string"></SimpleField>
+	<SimpleField name="leaf_type" type="string"></SimpleField>
+	<SimpleField name="natural" type="string"></SimpleField>
+	<SimpleField name="sport" type="string"></SimpleField>
+	<SimpleField name="gps" type="string"></SimpleField>
+	<SimpleField name="nohousenumber" type="string"></SimpleField>
+	<SimpleField name="source" type="string"></SimpleField>
+	<SimpleField name="surface" type="string"></SimpleField>
+	<SimpleField name="dog" type="string"></SimpleField>
+</Schema>
+<Folder><name>praças_ananindeua</name>
+  <Placemark id="praças_ananindeua.1">
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">node</SimpleData>
+		<SimpleData name="id">11064151494</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-48.3656763,-1.356344</coordinates></Point>
+  </Placemark>
+  <Placemark id="praças_ananindeua.2">
+	<name>Orla de Ananindeua</name>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">node</SimpleData>
+		<SimpleData name="id">11493150535</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+		<SimpleData name="addr:city">Ananindeua</SimpleData>
+		<SimpleData name="addr:housenumber">00</SimpleData>
+		<SimpleData name="addr:postcode">67000000</SimpleData>
+		<SimpleData name="addr:street">Estrada do Icuí Guajará</SimpleData>
+		<SimpleData name="addr:suburb">Icuí</SimpleData>
+		<SimpleData name="opening_hours">Mo-Su 05:00-22:00</SimpleData>
+		<SimpleData name="operator">prefeitura</SimpleData>
+		<SimpleData name="operator:type">government</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-48.3955658,-1.3276998</coordinates></Point>
+  </Placemark>
+  <Placemark id="praças_ananindeua.3">
+	<name>canteiro do paar</name>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">node</SimpleData>
+		<SimpleData name="id">12182776158</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-48.3886552,-1.3347987</coordinates></Point>
+  </Placemark>
+  <Placemark id="praças_ananindeua.4">
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">node</SimpleData>
+		<SimpleData name="id">12408122089</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="addr:city">Ananindeua</SimpleData>
+		<SimpleData name="addr:street">we 19</SimpleData>
+		<SimpleData name="addr:suburb">Coqueiro</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-48.404241,-1.3668003</coordinates></Point>
+  </Placemark>
+  <Placemark id="praças_ananindeua.5">
+	<name>casa</name>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">node</SimpleData>
+		<SimpleData name="id">12408122090</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="addr:city">Ananindeua</SimpleData>
+		<SimpleData name="addr:street">Travessa WE 19</SimpleData>
+		<SimpleData name="addr:suburb">Coqueiro</SimpleData>
+		<SimpleData name="opening_hours">toda hora</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-48.4024772,-1.3668859</coordinates></Point>
+  </Placemark>
+  <Placemark id="praças_ananindeua.6">
+	<name>Parque do 8</name>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">node</SimpleData>
+		<SimpleData name="id">14175614501</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-48.4097611,-1.359971</coordinates></Point>
+  </Placemark>
+  <Placemark id="praças_ananindeua.7">
+	<name>Parque do 8</name>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">node</SimpleData>
+		<SimpleData name="id">14175614601</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-48.4099048,-1.3600352</coordinates></Point>
+  </Placemark>
+  <Placemark id="praças_ananindeua.8">
+	<name>Bosque Marajoara</name>
+	<description>Bosque Marajoara localizado no Conjunto Julia Seffer em Ananindeua.</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">193408216</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="addr:street">Rua Coletora Leste</SimpleData>
+		<SimpleData name="landuse">forest</SimpleData>
+		<SimpleData name="leaf_cycle">mixed</SimpleData>
+		<SimpleData name="leaf_type">mixed</SimpleData>
+		<SimpleData name="natural">grass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3804484,-1.3909407 -48.3803895,-1.390789 -48.3802655,-1.3903965 -48.3799603,-1.3903652 -48.3797605,-1.3906358 -48.3796883,-1.390925 -48.3797001,-1.3910735 -48.3795512,-1.3912968 -48.3794898,-1.3916642 -48.3794701,-1.3919246 -48.3794744,-1.3920704 -48.3799568,-1.3921601 -48.3800667,-1.3921535 -48.3802145,-1.3922041 -48.380698,-1.39225 -48.3807511,-1.3917361 -48.3805582,-1.3913311 -48.3805532,-1.3910546 -48.3804484,-1.3909407</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.9">
+	<name>Praça do Conjunto Residencial Ariri</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">259863999</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4280047,-1.3396444 -48.4280523,-1.3398407 -48.4277628,-1.3399076 -48.4276209,-1.3399452 -48.4275734,-1.3397472 -48.4277127,-1.3397158 -48.4280047,-1.3396444</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.10">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">414181709</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4103047,-1.3593908 -48.4102806,-1.3593632 -48.4102514,-1.3593484 -48.4095535,-1.3593402 -48.4095045,-1.3594051 -48.4095103,-1.3602793 -48.4095188,-1.3607295 -48.4102592,-1.3607164 -48.4102631,-1.3603537 -48.4103047,-1.3593908</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.11">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">494570487</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4109487,-1.3738998 -48.4109531,-1.3742627 -48.4113222,-1.3742582 -48.4113482,-1.3742579 -48.4109487,-1.3738998</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.12">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">494570490</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4115186,-1.3749892 -48.4116391,-1.3751075 -48.4112977,-1.3754972 -48.4112514,-1.3754407 -48.4115186,-1.3749892</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.13">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">538119743</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4131641,-1.3764037 -48.4130367,-1.3765502 -48.4131844,-1.3766785 -48.4133118,-1.376532 -48.4131641,-1.3764037</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.14">
+	<name>Praça da São Lucas</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546350889</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3882974,-1.3533556 -48.3881901,-1.353365 -48.3881901,-1.3538061 -48.3883339,-1.3538121 -48.388518,-1.3536782 -48.3882974,-1.3533556</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.15">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546353912</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3865525,-1.3370676 -48.3867637,-1.3369688 -48.3869058,-1.3369022 -48.38675,-1.3365696 -48.3863967,-1.336735 -48.3865525,-1.3370676</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.16">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499344</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4112506,-1.3734041 -48.4107727,-1.3734059 -48.4112521,-1.373805 -48.4112506,-1.3734041</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.17">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499345</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4108709,-1.3738135 -48.4102501,-1.373275 -48.4102314,-1.3735877 -48.4102468,-1.3738096 -48.4108709,-1.3738135</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.18">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499346</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="landuse">grass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4100714,-1.3731012 -48.4095815,-1.3726887 -48.4095825,-1.3731023 -48.4100714,-1.3731012</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.19">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499347</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4093733,-1.3719718 -48.4090905,-1.3719646 -48.4090701,-1.3719899 -48.40937,-1.3722261 -48.4093733,-1.3719718</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.20">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499348</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4089071,-1.3721125 -48.4087387,-1.3719432 -48.4084777,-1.3717194 -48.408246,-1.3717155 -48.4082395,-1.3720999 -48.4089071,-1.3721125</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.21">
+	<name>Praça Três Corações</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499349</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4079655,-1.3709878 -48.408433,-1.3714084 -48.4088848,-1.371411 -48.4088872,-1.370993 -48.4079655,-1.3709878</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.22">
+	<name>Praça da Bíblia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499350</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4075199,-1.369675 -48.4065108,-1.369686 -48.4064878,-1.3696984 -48.4064949,-1.369732 -48.4073165,-1.3704349 -48.4074049,-1.3704349 -48.4074649,-1.3703828 -48.4074859,-1.3703294 -48.4074727,-1.370191 -48.407475,-1.37006 -48.4074892,-1.3697877 -48.4075207,-1.3697501 -48.4075199,-1.369675</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.23">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499351</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4046738,-1.3667894 -48.4044827,-1.3664161 -48.4043213,-1.3664158 -48.4043206,-1.3667887 -48.4046738,-1.3667894</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.24">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499353</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4131013,-1.3758196 -48.4129025,-1.3756448 -48.4126308,-1.3759536 -48.412643,-1.3759643 -48.4126997,-1.3760142 -48.4127494,-1.3760579 -48.4128296,-1.3761284 -48.4131013,-1.3758196</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.25">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499354</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4123659,-1.3756613 -48.4121638,-1.3754913 -48.4119999,-1.3756861 -48.412202,-1.3758561 -48.4123659,-1.3756613</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.26">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499355</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4116961,-1.3764156 -48.4115027,-1.376245 -48.4113086,-1.3764684 -48.4115132,-1.3766422 -48.4116961,-1.3764156</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.27">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546499356</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.412212,-1.3769192 -48.4120332,-1.3771192 -48.41223,-1.3772937 -48.4123898,-1.3771135 -48.4124081,-1.3770929 -48.412212,-1.3769192</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.28">
+	<name>Sitio do Quarentão</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546820441</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="sport">soccer;swimming</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4191642,-1.3555001 -48.4195146,-1.35619 -48.421402,-1.3552539 -48.4215268,-1.355192 -48.4218487,-1.3550323 -48.422254,-1.3548313 -48.4224557,-1.3545943 -48.4224203,-1.3543785 -48.4216877,-1.3538513 -48.421624,-1.3539963 -48.4208737,-1.3544174 -48.4191642,-1.3555001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.29">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">546822406</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4211204,-1.3557913 -48.4210924,-1.3557249 -48.4210638,-1.3556569 -48.4207346,-1.3558161 -48.420763,-1.3558727 -48.4207984,-1.3559434 -48.4211204,-1.3557913</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.30">
+	<name>Praça do Lápis</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">548781723</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="addr:city">Ananindeua</SimpleData>
+		<SimpleData name="addr:street">Arterial 18</SimpleData>
+		<SimpleData name="addr:suburb">Coqueiro</SimpleData>
+		<SimpleData name="gps">-1.357819, -48.399167</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3993632,-1.3576105 -48.3992153,-1.3576684 -48.3991058,-1.3577375 -48.3989942,-1.3578087 -48.3988888,-1.357882 -48.3989232,-1.3579087 -48.3989576,-1.3579293 -48.399002,-1.3579306 -48.3990226,-1.357932 -48.3990474,-1.3579329 -48.3993449,-1.3579102 -48.3993545,-1.3578645 -48.3993452,-1.3578314 -48.3993421,-1.3578046 -48.3993525,-1.3577757 -48.3993525,-1.3577519 -48.3993525,-1.3577323 -48.3993781,-1.3577245 -48.3993954,-1.3576711 -48.3993892,-1.3576464 -48.3993767,-1.3576321 -48.3993632,-1.3576105</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.31">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">550113818</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3974005,-1.3499025 -48.397405,-1.3495925 -48.3966081,-1.3495876 -48.3966014,-1.3499047 -48.3974005,-1.3499025</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.32">
+	<name>Praça Lauro Leite</name>
+	<description>Praça do bairro da Guanabara</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">628688465</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="addr:city">Ananindeua</SimpleData>
+		<SimpleData name="addr:postcode">67010-550</SimpleData>
+		<SimpleData name="addr:street">Rua do Fio</SimpleData>
+		<SimpleData name="addr:suburb">Guanabara</SimpleData>
+		<SimpleData name="opening_hours">24/7</SimpleData>
+		<SimpleData name="nohousenumber">yes</SimpleData>
+		<SimpleData name="source">Survey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4184124,-1.3980816 -48.4184075,-1.3983735 -48.4180835,-1.3983686 -48.4176167,-1.3983646 -48.4176202,-1.3980648 -48.4184124,-1.3980816</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.33">
+	<name>Praça Antonio Queiroz</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">650275873</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4192324,-1.3445678 -48.4189749,-1.344828 -48.4187202,-1.3445759 -48.4189777,-1.3443158 -48.4192324,-1.3445678</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.34">
+	<name>Praça Matriz de Anainindeua</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">682987876</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="addr:city">Ananindeua</SimpleData>
+		<SimpleData name="addr:street">Rodovia BR-316</SimpleData>
+		<SimpleData name="addr:suburb">Centro</SimpleData>
+		<SimpleData name="surface">paved</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3730341,-1.3661791 -48.3730053,-1.3668031 -48.3723484,-1.3666959 -48.3723028,-1.3664449 -48.3722583,-1.3661998 -48.3730341,-1.3661791</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.35">
+	<name>Parque Ambiental de Ananindeua Antônio Danúbio Lourenço da Silva</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">693572107</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4057341,-1.3828188 -48.406115,-1.3831352 -48.4068016,-1.383591 -48.4070538,-1.3839396 -48.4070752,-1.3842614 -48.4071235,-1.3845939 -48.4065924,-1.3845939 -48.4065334,-1.3850926 -48.405305,-1.3843686 -48.4053801,-1.3827759 -48.4057341,-1.3828188</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.36">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">705579315</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3817908,-1.3753315 -48.381713,-1.3754709 -48.382152,-1.3757165 -48.3822589,-1.3747872 -48.3822079,-1.3747577 -48.3821301,-1.3749132 -48.3821918,-1.3749481 -48.3822104,-1.3749848 -48.3822184,-1.3750252 -48.3822153,-1.3750662 -48.3822012,-1.3751049 -48.3820108,-1.3754562 -48.3817908,-1.3753315</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.37">
+	<name>Praça das Nações</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">705579318</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3795378,-1.374822 -48.3795809,-1.374851 -48.3796133,-1.3748917 -48.379632,-1.3749402 -48.3796353,-1.374992 -48.3796228,-1.3750425 -48.3795957,-1.3750868 -48.3795565,-1.375121 -48.3793916,-1.3752001 -48.3793602,-1.3752112 -48.379327,-1.3752131 -48.3792946,-1.3752056 -48.3792655,-1.3751894 -48.3791542,-1.3750714 -48.3791341,-1.3750159 -48.3791309,-1.3749569 -48.379145,-1.3748995 -48.3791751,-1.3748486 -48.3792186,-1.3748086 -48.3792816,-1.3747939 -48.3793956,-1.3747912 -48.3795378,-1.374822</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.38">
+	<name>Bosque Uirapuru</name>
+	<description>Bosque localizado no conjunto Julia Seffer em Ananindeua.</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">722722893</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="addr:street">Rua Coletora Oeste</SimpleData>
+		<SimpleData name="leaf_cycle">mixed</SimpleData>
+		<SimpleData name="leaf_type">mixed</SimpleData>
+		<SimpleData name="natural">grass</SimpleData>
+		<SimpleData name="surface">grass_paver</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.384676,-1.3935927 -48.3841689,-1.3934534 -48.3841916,-1.3929702 -48.3841928,-1.3929462 -48.3841949,-1.3929019 -48.3841964,-1.3928692 -48.3841972,-1.392852 -48.3845086,-1.3917555 -48.3851214,-1.3912977 -48.3853183,-1.3917826 -48.3852697,-1.3920781 -48.3854242,-1.3924959 -48.3854002,-1.39351 -48.3852387,-1.3937401 -48.384676,-1.3935927</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.39">
+	<name>Área de recreação do Conjunto Julia Seffer</name>
+	<description>Local com campo para prática de esportes como futebol e vôlei, além corridas e caminhadas.</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">722722894</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="addr:city">Ananindeua</SimpleData>
+		<SimpleData name="addr:street">Rua 8</SimpleData>
+		<SimpleData name="addr:suburb">Águas Lindas</SimpleData>
+		<SimpleData name="opening_hours">24/7</SimpleData>
+		<SimpleData name="operator">ACHAJUS</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3828455,-1.3906583 -48.3825368,-1.3906108 -48.3827609,-1.3893541 -48.3830604,-1.3893942 -48.3828455,-1.3906583</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.40">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">752089831</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4140155,-1.3938175 -48.4147362,-1.3938401 -48.4147375,-1.3944714 -48.4146952,-1.3944828 -48.4139998,-1.3944725 -48.4140155,-1.3938175</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.41">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">766285196</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="landuse">grass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3866127,-1.3962483 -48.3865659,-1.3965473 -48.3862343,-1.3961841 -48.3866127,-1.3962483</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.42">
+	<name>Praça do Abacatão</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787675694</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="landuse">grass</SimpleData>
+		<SimpleData name="source">survey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4074145,-1.3504526 -48.4080592,-1.3498522 -48.408145,-1.3501726 -48.4081563,-1.3502715 -48.408208,-1.3503489 -48.4082136,-1.3504231 -48.4082623,-1.3504625 -48.4074145,-1.3504526</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.43">
+	<name>Praça da CN 4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787675695</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="source">survey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.407225,-1.3529488 -48.4072378,-1.3526631 -48.4067497,-1.3529593 -48.407225,-1.3529488</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.44">
+	<name>Praça da CN 7</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787675696</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="source">survey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4073912,-1.3518383 -48.4073776,-1.352154 -48.4078334,-1.3518787 -48.4078048,-1.3518397 -48.4073912,-1.3518383</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.45">
+	<name>Praça Pioneiro</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975882</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="source">suvey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4047334,-1.3641268 -48.404721,-1.3645662 -48.4054238,-1.3645729 -48.4054388,-1.3641356 -48.4047334,-1.3641268</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.46">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975883</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="source">survey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.405057,-1.3654605 -48.4050483,-1.3650596 -48.4049316,-1.3650629 -48.4049313,-1.3654563 -48.405057,-1.3654605</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.47">
+	<name>Praça Tranquedo Neves</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975884</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="source">Survey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4027863,-1.3575137 -48.4034213,-1.3575227 -48.4034336,-1.356654 -48.4027987,-1.356645 -48.4027863,-1.3575137</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.48">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975885</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="source">survey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4090714,-1.3526141 -48.4089788,-1.3526098 -48.4089745,-1.3530025 -48.4090695,-1.3530029 -48.4090714,-1.3526141</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.49">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975886</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="source">survey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4090939,-1.353483 -48.4089608,-1.3534786 -48.4089579,-1.3539408 -48.4090881,-1.35394 -48.4090939,-1.353483</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.50">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975887</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="source">survey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4090462,-1.3544055 -48.408999,-1.3543966 -48.408969,-1.3544024 -48.4089675,-1.3547928 -48.4090423,-1.3547984 -48.4090462,-1.3544055</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.51">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975890</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="source">survey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4106143,-1.3507718 -48.4106169,-1.3507649 -48.4106214,-1.3507127 -48.4106602,-1.3506608 -48.4107161,-1.3506245 -48.4107562,-1.3505714 -48.4116845,-1.350703 -48.4116855,-1.3508095 -48.4106143,-1.3507718</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.52">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975891</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4114767,-1.371004 -48.4114861,-1.3714323 -48.4119015,-1.3714292 -48.4119018,-1.3710194 -48.4114767,-1.371004</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.53">
+	<name>Praça CN 07</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975893</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.405536,-1.3464267 -48.4053496,-1.3466948 -48.4053231,-1.3467329 -48.4061149,-1.347518 -48.4063738,-1.3472575 -48.4056256,-1.3465155 -48.405536,-1.3464267</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.54">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975895</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3904359,-1.3383643 -48.3904096,-1.338377 -48.390212,-1.3384611 -48.3901975,-1.3384685 -48.3902609,-1.3386018 -48.3905705,-1.3392528 -48.3909419,-1.3400337 -48.3909539,-1.3400588 -48.391013,-1.3400748 -48.391085,-1.3400662 -48.3911296,-1.3400275 -48.3911538,-1.339947 -48.3911491,-1.3399367 -48.3904359,-1.3383643</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.55">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975896</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3892427,-1.3358533 -48.3892197,-1.3358643 -48.3890535,-1.3359442 -48.3890409,-1.3359502 -48.389232,-1.3363635 -48.3901975,-1.3384685 -48.390212,-1.3384611 -48.3904096,-1.338377 -48.3904359,-1.3383643 -48.3892427,-1.3358533</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.56">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">787975897</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3892427,-1.3358533 -48.3881395,-1.3334396 -48.38812,-1.3334356 -48.3880786,-1.333427 -48.3880283,-1.3334263 -48.387974,-1.3334431 -48.3879352,-1.3334688 -48.3879266,-1.3334745 -48.3890409,-1.3359502 -48.3890535,-1.3359442 -48.3892197,-1.3358643 -48.3892427,-1.3358533</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.57">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">806947548</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3701661,-1.3411642 -48.3701578,-1.3411923 -48.3701426,-1.3412173 -48.3701214,-1.3412374 -48.3700957,-1.3412515 -48.3700672,-1.3412583 -48.3700379,-1.3412576 -48.3700098,-1.3412494 -48.3699849,-1.3412341 -48.3699647,-1.3412129 -48.3699506,-1.3411872 -48.3699438,-1.3411587 -48.3699445,-1.3411295 -48.3699527,-1.3411014 -48.369968,-1.3410764 -48.3699892,-1.3410562 -48.3700149,-1.3410422 -48.3700434,-1.3410353 -48.3700727,-1.341036 -48.3701007,-1.3410443 -48.3701257,-1.3410596 -48.3701459,-1.3410808 -48.3701599,-1.3411065 -48.3701668,-1.3411349 -48.3701661,-1.3411642</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.58">
+	<name>Park Ane</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">807389861</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="addr:street">Rua Coletora Sul (Julia Sefer)</SimpleData>
+		<SimpleData name="opening_hours">24/7</SimpleData>
+		<SimpleData name="landuse">grass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3842496,-1.3961757 -48.3838065,-1.3964602 -48.3838085,-1.3967285 -48.3841988,-1.3967894 -48.3842374,-1.396444 -48.3842496,-1.3961757</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.59">
+	<name>Praça da Pedreirinha</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">918491216</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4097515,-1.3913966 -48.4097622,-1.3916407 -48.409879,-1.3919839 -48.4101939,-1.3923625 -48.4103178,-1.3925606 -48.4104558,-1.3928437 -48.4104948,-1.3928649 -48.4105281,-1.3918328 -48.4097515,-1.3913966</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.60">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1082262446</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4049466,-1.3467731 -48.4051987,-1.3467705 -48.4052094,-1.3467477 -48.4050887,-1.3466149 -48.405023,-1.3466216 -48.4050271,-1.3467115 -48.4050177,-1.3467356 -48.404952,-1.3467423 -48.4049466,-1.3467731</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.61">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1082262451</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.40072,-1.350839 -48.4007313,-1.3496075 -48.3991521,-1.3495935 -48.3991547,-1.3508679 -48.40072,-1.350839</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.62">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1082262465</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4070493,-1.3478299 -48.4064652,-1.3473381 -48.4059819,-1.3478308 -48.4054308,-1.3478308 -48.4058282,-1.3489552 -48.4055061,-1.3489764 -48.4055955,-1.3494145 -48.4070493,-1.3478299</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.63">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1083361547</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3905456,-1.3414185 -48.3901505,-1.341608 -48.3905597,-1.3423393 -48.39088,-1.3421889 -48.3905456,-1.3414185</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.64">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1086680958</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4124525,-1.3754814 -48.4123676,-1.3755726 -48.4123101,-1.3755184 -48.4123818,-1.37541 -48.4124525,-1.3754814</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.65">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1086962009</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3871119,-1.3706193 -48.3870854,-1.3705814 -48.3870719,-1.3705372 -48.3870727,-1.370491 -48.3870877,-1.3704472 -48.3871223,-1.3703929 -48.3871601,-1.3703664 -48.3872044,-1.3703528 -48.3872506,-1.3703536 -48.3872944,-1.3703687 -48.3873313,-1.3703965 -48.3873579,-1.3704344 -48.3871119,-1.3706193</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.66">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1093032816</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3723462,-1.4021071 -48.3721852,-1.4018807 -48.3724279,-1.4020439 -48.3723855,-1.4020824 -48.3723462,-1.4021071</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.67">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1093373308</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3965724,-1.3443025 -48.3949,-1.3443105 -48.3948766,-1.3451406 -48.3959793,-1.3451688 -48.395991,-1.3449213 -48.3965683,-1.3449377 -48.3965724,-1.3443025</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.68">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1095936011</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3715836,-1.398618 -48.3714709,-1.3988164 -48.3718303,-1.3990309 -48.3719269,-1.398811 -48.3715836,-1.398618</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.69">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1097363141</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3896906,-1.4072395 -48.389679,-1.4073999 -48.3893099,-1.4073896 -48.3893004,-1.4072243 -48.3896906,-1.4072395</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.70">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1097363142</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.389942,-1.4072377 -48.3899407,-1.4077314 -48.3902018,-1.4078211 -48.3902141,-1.4072208 -48.389942,-1.4072377</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.71">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1101072593</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4201759,-1.3988677 -48.4201819,-1.3989441 -48.4200817,-1.3989489 -48.4199207,-1.3989395 -48.4198079,-1.3989294 -48.4198031,-1.3987324 -48.4198094,-1.3985959 -48.4198108,-1.3985235 -48.4198099,-1.3984502 -48.4198129,-1.3982948 -48.4198403,-1.3981751 -48.4198367,-1.3980996 -48.4199772,-1.3981037 -48.4201558,-1.3981099 -48.420223,-1.3981159 -48.4202118,-1.3982542 -48.4201947,-1.3984393 -48.4201827,-1.3986023 -48.420193,-1.3987644 -48.4201759,-1.3988677</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.72">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1102155412</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4024388,-1.3850877 -48.4024117,-1.3851339 -48.4022977,-1.3850833 -48.4022621,-1.3852377 -48.4022175,-1.3852241 -48.4022245,-1.3850842 -48.4022227,-1.3849715 -48.4023269,-1.3850273 -48.4024388,-1.3850877</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.73">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1102219164</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4254097,-1.3390082 -48.4253861,-1.3391242 -48.4253678,-1.3392198 -48.4253633,-1.3392548 -48.4252798,-1.339243 -48.4252435,-1.3392476 -48.4252491,-1.3391585 -48.4252743,-1.3390751 -48.4252709,-1.3390199 -48.4252732,-1.3389843 -48.4253644,-1.339006 -48.4254097,-1.3390082</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.74">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1103957636</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4259187,-1.357846 -48.4258594,-1.357957 -48.4257713,-1.3578903 -48.4256745,-1.3578494 -48.4257333,-1.3577489 -48.4258353,-1.3578122 -48.4259187,-1.357846</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.75">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1104048954</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4258599,-1.3578072 -48.4257728,-1.3577631 -48.4257437,-1.3577375 -48.4257652,-1.3577001 -48.4258021,-1.3576441 -48.4258576,-1.3575338 -48.4258724,-1.3575112 -48.4259081,-1.3575579 -48.4259921,-1.3576282 -48.4260311,-1.3576693 -48.4260348,-1.3577052 -48.4260189,-1.3577363 -48.4259951,-1.3577492 -48.4259682,-1.35773 -48.4259416,-1.3577087 -48.425917,-1.3577143 -48.4258751,-1.3577189 -48.4258619,-1.3577639 -48.4258771,-1.357792 -48.4258599,-1.3578072</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.76">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1104052475</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4254843,-1.3581651 -48.4254601,-1.3582105 -48.4253965,-1.3581714 -48.4253097,-1.3581196 -48.4253293,-1.3580897 -48.4254211,-1.3581399 -48.4254843,-1.3581651</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.77">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1105241333</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3970579,-1.3264909 -48.3972024,-1.3264245 -48.3971039,-1.3262103 -48.3969594,-1.3262766 -48.3970579,-1.3264909</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.78">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1105241904</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.396689,-1.3264687 -48.3967872,-1.3264315 -48.3968514,-1.326403 -48.3968134,-1.3263058 -48.3967356,-1.3261579 -48.3966945,-1.326088 -48.3966291,-1.3261532 -48.3965582,-1.3262295 -48.396467,-1.3263148 -48.3965591,-1.326469 -48.396689,-1.3264687</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.79">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1133941410</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.416407,-1.3408854 -48.4163719,-1.3409218 -48.4161085,-1.3409286 -48.4156895,-1.3409654 -48.4152629,-1.3409718 -48.4152258,-1.3409656 -48.4152472,-1.3408361 -48.416407,-1.3408854</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.80">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1135311658</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4228431,-1.3404935 -48.422654,-1.3404242 -48.4226446,-1.3404523 -48.4226165,-1.3405247 -48.4226073,-1.3405516 -48.4227966,-1.3406203 -48.4228431,-1.3404935</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.81">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1135807857</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3723785,-1.3964168 -48.372476,-1.3968341 -48.3722302,-1.3967179 -48.3723785,-1.3964168</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.82">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1136001997</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3677285,-1.3977997 -48.367358,-1.3976913 -48.3670995,-1.3985343 -48.3674829,-1.3986749 -48.367673,-1.3979993 -48.3677285,-1.3977997</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.83">
+	<name>Park Cão</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1182344204</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+		<SimpleData name="addr:city">Ananindeua</SimpleData>
+		<SimpleData name="addr:postcode">67133-350</SimpleData>
+		<SimpleData name="addr:street">Travessa WE 52 B</SimpleData>
+		<SimpleData name="addr:suburb">Cidade Nova</SimpleData>
+		<SimpleData name="opening_hours">24/7</SimpleData>
+		<SimpleData name="operator:type">public</SimpleData>
+		<SimpleData name="nohousenumber">yes</SimpleData>
+		<SimpleData name="dog">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4118537,-1.3512974 -48.4118518,-1.3516709 -48.4115461,-1.351669 -48.4115411,-1.3513837 -48.4115791,-1.3512964 -48.4118537,-1.3512974</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.84">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1182348389</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="addr:city">Ananindeua</SimpleData>
+		<SimpleData name="addr:street">Travessa We Cinquenta e Dois</SimpleData>
+		<SimpleData name="addr:suburb">Cidade Nova</SimpleData>
+		<SimpleData name="opening_hours">24/7</SimpleData>
+		<SimpleData name="operator">Municipal</SimpleData>
+		<SimpleData name="operator:type">public</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4090667,-1.351491 -48.4089902,-1.3515395 -48.4089917,-1.3520439 -48.4090814,-1.3520425 -48.4090667,-1.351491</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.85">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1191700959</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3651086,-1.3533514 -48.3648841,-1.3531058 -48.3646107,-1.3533556 -48.3648352,-1.3536011 -48.3651086,-1.3533514</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.86">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1191700961</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3657529,-1.3560271 -48.3654246,-1.3563192 -48.3656775,-1.3565814 -48.3658365,-1.3564476 -48.3657047,-1.3563022 -48.3658682,-1.3561566 -48.3657529,-1.3560271</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.87">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1198949875</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3621385,-1.3520901 -48.3618784,-1.3518215 -48.3616053,-1.3520849 -48.3618655,-1.352336 -48.3621385,-1.3520901</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.88">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1245272234</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3871939,-1.3706676 -48.3872102,-1.370635 -48.3872679,-1.3705773 -48.3873539,-1.3705108 -48.3873424,-1.3705556 -48.3872901,-1.3706175 -48.3872281,-1.3706778 -48.3871939,-1.3706676</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.89">
+	<name>Praça da Rua 17</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1254298113</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3836999,-1.3964775 -48.3836796,-1.3966453 -48.383639,-1.3966785 -48.3829915,-1.396566 -48.3829288,-1.3965218 -48.3829159,-1.3964498 -48.3829196,-1.3963539 -48.3836999,-1.3964775</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.90">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1254317553</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3772449,-1.3682842 -48.3763781,-1.3681706 -48.3764213,-1.3679134 -48.3765952,-1.3679652 -48.3767202,-1.3679982 -48.3769128,-1.3680758 -48.3771011,-1.3681405 -48.3771931,-1.368185 -48.3772477,-1.3682123 -48.3772837,-1.3682281 -48.3772449,-1.3682842</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.91">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1254320567</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3773657,-1.3653417 -48.3773009,-1.3657006 -48.3768937,-1.3656448 -48.3769495,-1.3652719 -48.3773657,-1.3653417</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.92">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1257003795</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4102589,-1.3705262 -48.4102609,-1.3709476 -48.4101966,-1.3709496 -48.4101986,-1.3705262 -48.4102589,-1.3705262</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.93">
+	<name>Parque das Águas</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1257305686</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="addr:street">Avenida Débora Calandrine</SimpleData>
+		<SimpleData name="addr:suburb">Águas Lindas</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.399045,-1.3914823 -48.3990373,-1.3918996 -48.3987455,-1.3919047 -48.3987341,-1.3920873 -48.3982583,-1.3918552 -48.3982723,-1.391462 -48.399045,-1.3914823</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.94">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1258458838</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3750386,-1.3329856 -48.3749775,-1.3334113 -48.3747943,-1.3330886 -48.3750386,-1.3329856</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.95">
+	<name>Parque Vila Maguari</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1263011884</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3756815,-1.3478649 -48.3752486,-1.3475218 -48.3752447,-1.3477304 -48.375235,-1.3478668 -48.3751862,-1.3480014 -48.3751414,-1.3481261 -48.3751219,-1.3481729 -48.3751531,-1.3481982 -48.375194,-1.3482294 -48.3752467,-1.348247 -48.3753656,-1.3481768 -48.3756815,-1.3478649</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.96">
+	<name>Parque Cultural da Vila Maguary</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1263252459</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3768922,-1.3468609 -48.3773957,-1.3469772 -48.3774449,-1.3470022 -48.3775075,-1.3470739 -48.3774185,-1.347058 -48.376832,-1.3470823 -48.3764444,-1.3471914 -48.3762588,-1.3472988 -48.3762225,-1.3472911 -48.376097,-1.3473686 -48.3760821,-1.3474136 -48.3759282,-1.3475642 -48.3756172,-1.3469749 -48.3757051,-1.3466118 -48.3755561,-1.3464704 -48.3753192,-1.346456 -48.3750864,-1.3461666 -48.3757989,-1.3453613 -48.3758519,-1.3455139 -48.3759049,-1.3456764 -48.3759821,-1.3460434 -48.3760529,-1.3461739 -48.3761857,-1.3462507 -48.3763428,-1.3462978 -48.3764561,-1.3463567 -48.3765245,-1.3464391 -48.3765953,-1.3466598 -48.3766563,-1.3467605 -48.3767719,-1.3468308 -48.3768922,-1.3468609</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.97">
+	<name>Play Fase 1 Eco</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1267950458</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3962659,-1.3807147 -48.3961951,-1.3807083 -48.3961887,-1.3807512 -48.3962627,-1.3807608 -48.3962659,-1.3807147</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.98">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1392427275</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.3677778,-1.4008601 -48.367403,-1.4007551 -48.3674731,-1.4011437 -48.3678525,-1.4012604 -48.3677778,-1.4008601</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="praças_ananindeua.99">
+	<name>Praça do Valparaíso</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#praças_ananindeua">
+		<SimpleData name="element">way</SimpleData>
+		<SimpleData name="id">1491052313</SimpleData>
+		<SimpleData name="leisure">park</SimpleData>
+		<SimpleData name="operator">Prefeitura de Ananindeua</SimpleData>
+		<SimpleData name="operator:type">public</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.4234523,-1.3756723 -48.4229614,-1.3755115 -48.422881,-1.3761201 -48.4225296,-1.3759566 -48.4224008,-1.3768924 -48.4227012,-1.3769299 -48.4227754,-1.3773103 -48.4228216,-1.3773189 -48.4229705,-1.3771518 -48.4233834,-1.375957 -48.4234523,-1.3756723</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
