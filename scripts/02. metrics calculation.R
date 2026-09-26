@@ -332,54 +332,92 @@ plot(parks[as.numeric(sel_parks$parkID),]$geometry)
 ## Variáveis para as árvores ----
 bufs = c(100,500,1000)
 
-library(snow)
-cl = makeCluster(4)
-clusterEvalQ(cl,library(sf))
-#clusterEvalQ(cl,library(terra))
-clusterEvalQ(cl,library(landscapemetrics))
+bufz = st_buffer(tree_c, dist = bufs[length(bufs)])
+bufz_t = st_transform(bufz,4326)
+bufz_uni = st_union(bufz_t)
+ld_crop_all = crop(br_crop,bufz_uni,mask=T)
+ld_crop_all = terra::mask(ld_crop_all,vect(bufz_uni))
+plot(ld_crop_all)
 
+tree_vect <- terra::vect(tree_simple)
+tree_layer <- terra::rasterize(
+  tree_vect,
+  ld_crop_all[[1]],
+  field = 3,
+  background = 0,
+  touches = TRUE
+)
+# Keep NA outside the cropped study area
+tree_layer <- terra::mask(tree_layer, ld_crop_all[[1]])
+names(tree_layer) <- "tree_presence"
+tree_val = values(tree_layer)
+ld_val = values(ld_crop_all)
+ld_crop_all[!is.na(tree_val)&(tree_val==3|ld_val==3|ld_val==6|ld_val==4|ld_val==7|ld_val==5|ld_val==11)] = 3
+ld_crop_all = terra::project(ld_crop_all,"EPSG:31982",method="near")
+plot(ld_crop_all)
+
+#writeRaster(ld_crop_all,"dataset/spatial/tree_bel_classified.tif")
+library(stars)
+library(Makurhini)
+library(landscapemetrics)
+ld_crop_all = read_stars("dataset/spatial/tree_bel_classified.tif")
+
+#random_trees = tree_c[sample(1:nrow(tree_c),9999),]
+#write_sf(random_trees,"dataset/spatial/random_trees.shp")
+random_trees = read_sf("dataset/spatial/random_trees.shp")
+random_trees = st_transform(random_trees,31982)
+plot(random_trees$geometry)
+
+#y=100
+all_scales = {}
 for(y in bufs){
-  bufz = st_buffer(tree_c, dist = y)
-  bufz_t = st_transform(bufz,4326)
-  
-  tree_mets = pbapply::pblapply(cl=cl, 1:1000,function(x){
-    ld_crop = terra::crop(br_crop,bufz_t[x,],mask=T)
-    tree_crop = st_intersection(tree_simple,bufz_t[x,])
-    tree_vect <- terra::vect(tree_crop)
-    tree_layer <- terra::rasterize(
-      tree_vect,
-      ld_crop[[1]],
-      field = 3,
-      background = 0,
-      touches = TRUE
-    )
-    # Keep NA outside the cropped study area
-    tree_layer <- terra::mask(tree_layer, ld_crop[[1]])
-    names(tree_layer) <- "tree_presence"
-    tree_val = values(tree_layer)
-    ld_val = values(ld_crop)
-    ld_crop[!is.na(tree_val)&(tree_val==3|ld_val==3|ld_val==6|ld_val==4|ld_val==7|ld_val==5|ld_val==11)] = 3
-    ld_crop = terra::project(ld_crop,"EPSG:31982",method="near")
+  bufz = st_buffer(random_trees, dist = y)
+  cl = makeCluster(8)
+  clusterEvalQ(cl,library(sf))
+  clusterEvalQ(cl,library(stars))
+  clusterEvalQ(cl,library(landscapemetrics))
+  clusterExport(cl,list("ld_crop_all","bufz"))
+  tree_mets = pbapply::pblapply(cl=cl,1:nrow(random_trees),function(x){
+    ld_new = st_crop(ld_crop_all,bufz[x,],mask=T)
+    ld_pol = ld_new
     
-    ##  Probability of connectivity
-    ld_new = ld_crop
-    ld_new[!is.na(values(ld_new))&values(ld_new)!=3] = NA
-    ld_new = as.polygons(ld_new)
-    ld_new = st_cast(st_as_sf(ld_new), "POLYGON", do_split = TRUE)
-    ld_new$ID = 1:nrow(ld_new)
-    PC = suppressMessages(MK_dPCIIC(ld_new,  metric = c("PC"), area_unit = "m2",overall =TRUE,onlyoverall=TRUE,distance = list(type = "centroid"),distance_thresholds = c(10,50,100,500)))
-    
-    lsms_tre = calculate_lsm(ld_crop,what = c("lsm_c_pd","lsm_c_pland","lsm_c_ed","lsm_c_clumpy","lsm_c_area_mn"))
-    rbind(lsms_tre[lsms_tre$metric!="pland",][lsms_tre[lsms_tre$metric!="pland",]$class == 3,],
-          lsms_tre[lsms_tre$metric=="pland",]) -> lsms_tre
-    lsms_tre$id = parks$ID[x]
-    
-    return(data.frame(class = lsms_tre$class,
-                      id = parks$ID[x],
-                      metric = lsms_tre$metric,
-                      value = lsms_tre$value))
+    ld_pol[[1]][!is.na(ld_pol[[1]])&ld_pol[[1]] != 3] = NA
+    ld_pol = st_as_sf(ld_pol,merge = TRUE)
+    ld_pol$ID = 1:nrow(ld_pol)
+    if(nrow(ld_pol)<2){
+      PC = NA
+      lsms_tre = calculate_lsm(ld_new,what = c("lsm_c_pd","lsm_c_pland","lsm_c_ed","lsm_c_clumpy","lsm_c_area_mn"))
+      rbind(lsms_tre[lsms_tre$metric!="pland",][lsms_tre[lsms_tre$metric!="pland",]$class == 3,],
+            lsms_tre[lsms_tre$metric=="pland",]) -> lsms_tre
+      lsms_tre$id = bufz[x,]$treeID
+      return(data.frame(class = lsms_tre$class,
+                        id = bufz[x,]$treeID,
+                        metric = lsms_tre$metric,
+                        value = lsms_tre$value))
+      
+    } else {
+      PC = suppressMessages(Makurhini::MK_dPCIIC(ld_pol,  metric = c("PC"), area_unit = "m2",overall =TRUE,onlyoverall=TRUE,distance = list(type = "centroid"),distance_thresholds = c(10,50,100)))
+      
+      PC = reshape2::melt(PC)
+      PC$id = x
+      PC$Index = paste0(PC$Index,"_",PC$L1)
+      PC$Index = gsub("___|__|____|_____|______","_",gsub("\\(|\\)|%","_",PC$Index))
+      lsms_tre = calculate_lsm(ld_new,what = c("lsm_c_pd","lsm_c_pland","lsm_c_ed","lsm_c_clumpy","lsm_c_area_mn"))
+      rbind(lsms_tre[lsms_tre$metric!="pland",][lsms_tre[lsms_tre$metric!="pland",]$class == 3,],
+            lsms_tre[lsms_tre$metric=="pland",]) -> lsms_tre
+      lsms_tre$id = bufz[x,]$treeID
+      return(data.frame(class = c(lsms_tre$class,rep(3,nrow(PC))),
+                        id = bufz[x,]$treeID,
+                        metric = c(lsms_tre$metric,PC$Index),
+                        value = c(lsms_tre$value,PC$value)))
+    }
     
   })
-  
+  all_mets = do.call("rbind",tree_mets)
+  all_mets$scale = y
+  all_scales[[length(all_scales)+1]] = all_mets
+  stopCluster(cl)
+  gc()
 }
 
+stopCluster(cl)
