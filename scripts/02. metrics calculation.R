@@ -44,7 +44,10 @@ plot(park_bel$geometry)
 plot(park_ana$geometry,add=T)
 park_bel = park_bel[st_geometry_type(park_bel) == "POLYGON",]
 park_ana = park_ana[st_geometry_type(park_ana) == "POLYGON",]
-parks = rbind(park_bel,park_ana)
+
+
+
+parks = rbind(park_bel[,colnames(park_bel) %in% colnames(park_ana)],park_ana[,colnames(park_ana) %in% colnames(park_bel)[(colnames(park_bel) %in% colnames(park_ana))]])
 #par(mar = c(0,0,0,0))
 plot(parks$geometry)
 
@@ -61,7 +64,8 @@ tree_c = st_centroid(tree_t)
 tree_c$group = "tree"
 tree_c
 
-parks_c = st_centroid(parks)
+parks_t = st_transform(parks, crs = 31982)
+parks_c = st_centroid(parks_t)
 parks_c$group = "park"
 parks_c = st_transform(parks_c, crs = 31982)
 plot(parks_c$geometry)
@@ -186,6 +190,7 @@ distz = as.matrix(as.dist(st_distance(parks_t)))
 min_distances = unlist(lapply(1:nrow(distz),function(x){min(distz[x,][distz[x,]!=0])}))
 park_data$nearest = min_distances
 plot(br_crop)
+
 br_val = values(br_crop)
 values(br_crop)[!is.na(br_val)&(br_val==3|br_val==6|br_val==4|br_val==7|br_val==5|br_val==11)] = 3
 br_val = values(br_crop)
@@ -197,9 +202,9 @@ vec_br_t = st_transform(vec_br,31982)
 area_vec = st_area(vec_br_t)
 hec_area = as.numeric(area_vec)/10000
 sum(hec_area > 10000)
-hec_100 = vec_br_t[hec_area > 100,]
+hec_50 = vec_br_t[hec_area > 50,]
 hec_1000 = vec_br_t[hec_area > 1000,]
-hec_10000 = vec_br_t[hec_area > 10000,]
+hec_100 = vec_br_t[hec_area > 100,]
 
 dist_100 = st_distance(parks_t,hec_100)
 dist_100 = apply(dist_100,1,min)
@@ -362,7 +367,34 @@ library(Makurhini)
 library(landscapemetrics)
 ld_crop_all = read_stars("dataset/spatial/tree_bel_classified.tif")
 
-#random_trees = tree_c[sample(1:nrow(tree_c),9999),]
+#install.packages("osmdata")
+library(osmdata)
+available_features()
+
+PA = read_sf("dataset/spatial/PA_Municipios_2025/PA_Municipios_2025.shp")
+PA = PA[PA$NM_MUN=="Belém"|PA$NM_MUN=="Ananindeua",]
+
+PA_highway <- st_bbox(PA) %>%
+  opq() %>%
+  add_osm_feature(key = "highway") %>%
+  osmdata_sf()
+PA_highway = PA_highway$osm_lines
+
+plot(PA_highway$geometry)
+
+PA_highway_t = st_transform(PA_highway,31982)
+buf_high = st_buffer(PA_highway_t,5)
+parks
+
+inter_tree = st_intersects(tree_c,buf_high)
+inter_park = st_intersects(tree_c,parks_t)
+
+listed_tree = lapply(inter_tree,function(x){length(x)>0})
+listed_park = lapply(inter_park,function(x){length(x)>0})
+street_trees = tree_c[unlist(listed_tree)|unlist(listed_park),]
+street_trees
+
+#random_trees = street_trees[sample(1:nrow(street_trees),9999),]
 #write_sf(random_trees,"dataset/spatial/random_trees.shp")
 random_trees = read_sf("dataset/spatial/random_trees.shp")
 random_trees = st_transform(random_trees,31982)
@@ -420,4 +452,90 @@ for(y in bufs){
   gc()
 }
 
-stopCluster(cl)
+all_scales_list = all_scales
+all_scales = do.call("rbind",all_scales)
+write.csv(all_scales,"dataset/all_scales.csv")
+all_scales = read.csv("dataset/all_scales.csv",row.names = 1)
+
+all_scales$class = as.factor(all_scales$class)
+all_scales$scale = as.factor(all_scales$scale)
+all_scales$id = as.factor(all_scales$id)
+cast_scales = reshape2::recast(all_scales,id ~ metric + class + scale,measure.var = "value")
+cast_scales[is.na(cast_scales)] = 0
+
+distz_tree = st_distance(random_trees,tree_c)
+
+nearest_trees = pbapply::pblapply(1:nrow(distz_tree),function(x){
+  return(as.numeric(min(distz_tree[x,][as.numeric(distz_tree[x,])!=0])))
+})
+
+nearest_trees = unlist(nearest_trees)
+hist(nearest_trees)
+
+dist50 = st_distance(random_trees,hec_50)
+dist100 = st_distance(random_trees,hec_100)
+dist1000 = st_distance(random_trees,hec_1000)
+
+min_dist50 = apply(dist50,1,min)
+min_dist100 = apply(dist100,1,min)
+min_dist1000 = apply(dist1000,1,min)
+
+cast_scales$nearest = nearest_trees
+cast_scales$mainland50 = min_dist50
+cast_scales$mainland100 = min_dist100
+cast_scales$mainland1000 = min_dist1000
+
+library(vegan)
+cast_scales = cast_scales[,!grepl("group",colnames(cast_scales))]
+eu_dist = vegdist(scale(cast_scales[,2:ncol(cast_scales)]),method="euclidean",na.rm=T)
+clust = hclust(eu_dist)
+plot(clust)
+samp_groups = cutree(clust,k=40)
+cast_scales$group = samp_groups
+hist(cast_scales$group)
+cast_scales[cast_scales$group==30,]
+cast_scales$id = sprintf("%06d",as.numeric(cast_scales$id))
+
+sel_trees = list()
+#sel_trees[[1]] = st_as_sf(tree_c,coords=c("long","lat"),crs=4326)
+
+for(x in 1:40){
+  #print(x)
+  d = 0
+  temp_samp = cast_scales[cast_scales$group==x,][sample(1:nrow(cast_scales[cast_scales$group==x,]),1),]$id
+  temp_samp = tree_c[tree_c$treeID == temp_samp,]
+  if(length(sel_trees)!=0){
+    while(min(as.numeric(st_distance(temp_samp,do.call("rbind",sel_trees))))<2000&d<99){
+      temp_samp = cast_scales[cast_scales$group==x,][sample(1:nrow(cast_scales[cast_scales$group==x,]),1),]$id
+      temp_samp = tree_c[tree_c$treeID == temp_samp,]
+      d = d +1
+      #print(d)
+      if(d==999){
+        print("999")
+      }
+      #print(d)
+    }
+  }
+  #print(nrow(temp_samp))
+  sel_trees[[length(sel_trees)+1]] = temp_samp
+  print(length(sel_trees))
+}
+sel_trees = do.call("rbind",sel_trees)
+plot(sel_trees$geometry)
+
+sel_trees = cbind(sel_trees,cast_scales[match(sel_trees$treeID,cast_scales$id),])
+
+length(sel_trees$treeID)
+
+hist(sel_trees$pland_3_100)
+hist(sel_trees$pland_3_1000)
+hist(sel_trees$PCintra_d50_3_100)
+hist(cast_scales$PCintra_d50_3_100)
+hist(log10(sel_trees$area))
+
+plot(sel_trees[as.numeric(sel_trees$parkID),]$geometry)
+
+sel_trees_t = st_transform(sel_trees,4326)
+sel_trees_df = cbind(st_coordinates(sel_trees_t),as.data.frame(sel_trees_t)[,1:(ncol(sel_trees_t)-2)])
+write.csv(sel_trees_df,"dataset/sel_trees_df.csv",row.names = F)
+write_sf(sel_trees_t,"dataset/spatial/sel_trees.kml",row.names = F)
